@@ -9,7 +9,7 @@ data:
   dataset: "AIME25"
 
 concurrency: 128
-pass_k: 32
+pass_k: 1
 
 verify_filename: "math.py"
 verify_func_name: "verify_func"

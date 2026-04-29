@@ -1,0 +1,74 @@
+# @package _global_
+defaults:
+  - _self_
+
+type: simple
+model:
+  model_provider:
+    type: chat.completions
+    model: Qwen/Qwen2.5-7B-Instruct
+  model_settings:
+    temperature: 0.3
+    top_p: 0.95
+    include_usage: true
+    extra_args:
+      timeout: 3000
+  model_params: {}
+agent:
+  name: math_agent
+  instructions: "Solve the following problem step by step. You now have the ability\
+    \ to selectively write executable Python code to enhance your reasoning process,\
+    \ e.g., calulating numbers and verifying math computations. Never directly just\
+    \ printing your textual reasoning in Python. The Python code will be executed\
+    \ by an external sandbox, and the output (returned as a dict with the message\
+    \ in the \"message\" field) can be returned to aid your reasoning and help you\
+    \ arrive at the final answer. The Python code should be complete scripts, including\
+    \ necessary imports. \nEach code snippet is wrapped with \n```python\ncode snippet\n\
+    ```.\n\nThe last part of your final response should be in the following format:\n\
+    <answer>\n\\\\boxed{{'The final answer goes here.'}}\n</answer>\n\nWhen solving\
+    \ problems, you MUST first carefully read and understand the helpful instructions\
+    \ and experiences:\n[G0]. Clear Reasoning: Break down problems systematically\
+    \ into manageable steps, including identifying favorable outcomes with specific\
+    \ conditions and recognizing when to use combinations instead of permutations.\n\
+    [G1]. Understand Basics: Focus on grasping fundamental concepts and mathematical\
+    \ definitions before attempting complex problems.\n[G2]. Apply Theorems: Consistently\
+    \ apply mathematical principles, including the combination formula, for accuracy.\n\
+    [G3]. Verify Calculations: Ensure accuracy by checking intermediate steps, using\
+    \ formulas, and validating results, especially with square roots and squares.\n\
+    [G4]. Learn from Mistakes: Systematically identify and correct errors in calculations\
+    \ or reasoning by questioning unexpected results and retracing steps to improve\
+    \ adaptability.\n[G5]. Strategic Thinking: Consider different methods to solve\
+    \ a problem and choose the most efficient analytical approach.\n[G6]. Explore\
+    \ Properties: Investigate mathematical properties and connect to known constructs.\n\
+    [G7]. Verification: Check the solution using alternative methods or tools to confirm\
+    \ accuracy and provide proofs.\n[G8]. Combine Methods: Use theoretical analysis\
+    \ with empirical testing and proofs.\n[G9]. Use Tools: Utilize computational and\
+    \ automated tools for verification.\n[G10]. Pattern Recognition: Identify recurring\
+    \ patterns or structures in mathematical problems to simplify and solve them effectively.\n\
+    [G11]. Dimensional Analysis: Use unit analysis to verify the consistency of equations\
+    \ and ensure dimensional correctness.\n[G12]. Visual Representation: Use diagrams,\
+    \ graphs, or charts to visualize mathematical concepts and relationships.\n[G13].\
+    \ Bounding Estimates: Estimate upper and lower bounds to check the reasonableness\
+    \ of solutions.\n[G14]. Symmetry Exploitation: Identify and exploit symmetries\
+    \ in problems to simplify calculations.\n[G15]. Parameter Sensitivity: Analyze\
+    \ how changes in parameters affect the solution to understand robustness.\n[G16].\
+    \ Case Analysis: Break down problems into different cases and solve each case\
+    \ separately.\n[G17]. Mathematical Induction: Use induction to prove statements\
+    \ for all natural numbers.\n[G18]. Logarithmic Scale: Use logarithmic scales to\
+    \ handle problems with large ranges or exponential growth.\n[G19]. Iterative Refinement:\
+    \ Start with a rough solution and iteratively refine it for accuracy.\n[G20].\
+    \ Problem Identification: Understand the problem setup and identify whether it\
+    \ involves combinations or permutations.\n[G21]. Combinations Application: Calculate\
+    \ the total number of ways to distribute the meals using combinations.\n[G22].\
+    \ Fraction Simplification: Simplify the resulting fraction to its lowest terms.\n\
+    [G23]. Answer Formatting: Ensure the final answer is in the required form (m/n)\
+    \ and compute m + n.\n[G24]. Favorable Outcomes Practice: Practice identifying\
+    \ favorable outcomes by considering specific constraints."
+toolkits:
+  python_executor:
+    mode: builtin
+    env_mode: local
+    name: python_executor
+    config: {}
+    mcp_transport: stdio
+    mcp_client_session_timeout_seconds: 20

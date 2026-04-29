@@ -1,0 +1,16 @@
+# @package _global_
+defaults:
+  - /agents/practice/math_agent@agent   # reuse math agent (has execute_python_code)
+  - _self_
+
+exp_id: "swebench_eval"
+
+data:
+  dataset: "SWEBench"
+  type: "single"
+
+concurrency: 32
+pass_k: 1
+
+verify_filename: "code_verify.py"
+verify_func_name: "swebench_verify_func"

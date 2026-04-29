@@ -113,6 +113,11 @@ class TrainingFreeGRPO:
             epoch_data = self.practice_rollout_manager.load_epoch_data(
                 epoch, shuffle=self.config.practice.shuffle_data, truncate=self.config.practice.rollout_data_truncate
             )
+            
+            print("DEBUG: epoch_data size =", len(epoch_data))
+            
+            print("DEBUG: batch_size =", self.config.practice.batch_size)
+            print("DEBUG: grpo_n =", self.config.practice.grpo_n)
 
             # check the batch size
             assert len(epoch_data) % self.config.practice.grpo_n == 0, (
@@ -150,6 +155,10 @@ class TrainingFreeGRPO:
                             use_cache=self._should_use_cache(step),
                         )
                         stats[f"step_{step}"]["rollout"] = stat
+                        
+                        print("DEBUG: rollouts size =", len(rollouts))
+                        print("DEBUG stat:", stat)
+
 
                     # 2. Update experiences based on rollouts
                     with custom_span("Generate batch experiences"):

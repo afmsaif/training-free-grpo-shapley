@@ -1,3 +1,12 @@
+'''
+python -m scripts.data.upload_dataset \
+    --file_path data/swebench_lite.jsonl \
+    --dataset_name SWEBench
+
+'''
+
+
+
 import argparse
 import json
 from typing import Literal

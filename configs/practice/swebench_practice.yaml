@@ -1,0 +1,30 @@
+# @package _global_
+defaults:
+  - /eval/swebench/swebench_eval@evaluation
+  - _self_
+
+exp_id: "swebench_practice"
+
+practice:
+  epochs: 1
+  batch_size: 20
+  grpo_n: 5
+  rollout_concurrency: 32
+  rollout_temperature: 0.7
+  task_timeout: 600
+  do_eval: false
+  shuffle_data: true
+  rollout_data_truncate: 100
+  given_ground_truth: true
+  num_experiences_per_query: 2
+  agent_objective: |
+    You are a software engineering agent that resolves GitHub issues by
+    generating git patches. Given a repository, issue description, and
+    relevant code context, produce a correct diff patch.
+  learning_objective: |
+    Extract experiences about effective debugging strategies, common bug
+    patterns, how to correctly format git patches, and which types of code
+    changes are most likely to fix specific categories of issues.
+
+data:
+  practice_dataset_name: "SWEBench"

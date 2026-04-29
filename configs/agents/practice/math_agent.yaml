@@ -19,6 +19,7 @@ agent:
     </answer>
 
 max_turns: 50
+pass_k: 1
 
 model:
   model_settings:
@@ -26,3 +27,5 @@ model:
     top_p: 0.95
     extra_args:
       timeout: 3000
+
+# tool_choice: none
