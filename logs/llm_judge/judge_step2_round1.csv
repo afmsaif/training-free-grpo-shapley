@@ -1,0 +1,11 @@
+rank,experience_id,score,psi_proxy,remove,content
+1,G0,10.0,1.0000,False,"Clear Reasoning: Break down problems systematically into manageable steps to ensure clarity and avoid errors."
+2,G2,10.0,1.0000,False,"Understand Basics: Focus on grasping fundamental concepts and mathematical definitions before attempting complex problems."
+3,G4,10.0,1.0000,False,"Apply Theorems: Consistently apply mathematical principles, including the Pythagorean theorem, for accuracy."
+4,G1,9.0,0.8000,False,"Verify Calculations: Ensure accuracy by checking intermediate steps, using formulas, and validating results, especially with square roots and squares."
+5,G3,9.0,0.8000,False,"Learn from Mistakes: Systematically identify and correct errors in calculations or reasoning by questioning unexpected results and retracing steps to improve adaptability."
+6,G5,9.0,0.8000,False,"Strategic Thinking: Consider different methods to solve a problem and choose the most efficient analytical approach."
+7,G6,9.0,0.8000,False,"Explore Properties: Investigate mathematical properties and connect to known constructs."
+8,G7,9.0,0.8000,False,"Verification: Check the solution using alternative methods or tools to confirm accuracy and provide proofs."
+9,G8,8.0,0.6000,False,"Combine Methods: Use theoretical analysis with empirical testing and proofs."
+10,G9,5.0,0.0000,False,"Use Tools: Utilize computational and automated tools for verification."

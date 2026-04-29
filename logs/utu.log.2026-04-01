@@ -1,0 +1,7 @@
+2026-04-01 02:41:17,121[utu] - INFO - log.py:56 - Logging initialized with level WARNING. - MainThread
+2026-04-01 02:41:17,121[utu.tracing.setup] - WARNING - setup.py:85 - PHOENIX_ENDPOINT or PHOENIX_PROJECT_NAME is not set! Skipping OpenTelemetry tracing. - MainThread
+2026-04-01 02:41:17,145[utu.utils.sqlmodel_utils] - DEBUG - sqlmodel_utils.py:55 - Performing fresh database availability check - MainThread
+2026-04-01 02:41:17,154[utu.utils.sqlmodel_utils] - INFO - sqlmodel_utils.py:93 - Database schema ensured (tables created if missing). - MainThread
+2026-04-01 02:41:17,154[utu.utils.sqlmodel_utils] - DEBUG - sqlmodel_utils.py:68 - Database is available - MainThread
+2026-04-01 02:41:17,155[utu.tracing.setup] - INFO - setup.py:120 - Setting up DB tracing - MainThread
+2026-04-01 02:41:17,155[utu.utils.sqlmodel_utils] - DEBUG - sqlmodel_utils.py:51 - Using cached DB availability status: True - MainThread

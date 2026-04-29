@@ -1,0 +1,223 @@
+{
+  "timestamp": "2026-04-16T19:41:39.990368+00:00",
+  "n_evaluated": 27,
+  "v_full": 0.24,
+  "ranked": [
+    {
+      "rank": 1,
+      "experience_id": "G9",
+      "loo_score": 0.01999999999999999,
+      "v_without": 0.22,
+      "helpful": true,
+      "content": "Method flexibility: Maintain strategic flexibility by switching between algebraic, geometric, and numerical approaches when one method becomes overly complex."
+    },
+    {
+      "rank": 2,
+      "experience_id": "G6",
+      "loo_score": 0.0,
+      "v_without": 0.24,
+      "helpful": false,
+      "content": "Result verification: Verify combinatorial results using multiple independent methods and thoroughly investigate discrepancies rather than dismissing conflicting outcomes."
+    },
+    {
+      "rank": 3,
+      "experience_id": "G20",
+      "loo_score": 0.0,
+      "v_without": 0.24,
+      "helpful": false,
+      "content": "Inequality analysis: Systematically analyze absolute value inequalities by considering separate cases, combining constraints to find intersections, and carefully verifying boundary conditions."
+    },
+    {
+      "rank": 4,
+      "experience_id": "G21",
+      "loo_score": 0.0,
+      "v_without": 0.24,
+      "helpful": false,
+      "content": "Geometric sequence transformation: For nested geometric patterns, use variable substitution to convert complex recurrences into linear sequences, enabling closed-form solutions and termination analysis."
+    },
+    {
+      "rank": 5,
+      "experience_id": "G22",
+      "loo_score": 0.0,
+      "v_without": 0.24,
+      "helpful": false,
+      "content": "Constraint reduction: When solving constrained approximation problems, first analyze sum/integer constraints to reduce continuous problems to discrete combinatorial selection."
+    },
+    {
+      "rank": 6,
+      "experience_id": "G2",
+      "loo_score": -0.020000000000000018,
+      "v_without": 0.26,
+      "helpful": false,
+      "content": "Geometry verification: Systematically verify all constraints (position, distances, angles, area) and mathematical definitions early using multiple independent methods (computational, geometric, pattern analysis), remaining flexible to reconsider assumptions when encountering contradictions, especially in constrained optimization."
+    },
+    {
+      "rank": 7,
+      "experience_id": "G5",
+      "loo_score": -0.020000000000000018,
+      "v_without": 0.26,
+      "helpful": false,
+      "content": "Divisibility sequences: For sequences modulo N, analyze gcd(a_i, N) chain in divisor lattice and maximize distinct residues by summing φ(N/d) over optimal chains, systematically verifying both finite sequence validity and infinite extensibility through prime factor analysis."
+    },
+    {
+      "rank": 8,
+      "experience_id": "G7",
+      "loo_score": -0.020000000000000018,
+      "v_without": 0.26,
+      "helpful": false,
+      "content": "Format verification: Verify rounding rules early using scientific notation or custom functions, especially for ambiguous significant figures between 10 and 100."
+    },
+    {
+      "rank": 9,
+      "experience_id": "G24",
+      "loo_score": -0.020000000000000018,
+      "v_without": 0.26,
+      "helpful": false,
+      "content": "GCD constraint verification: For problems with gcd constraints, explicitly verify prime assignment chains ensuring proper distribution throughout sequences."
+    },
+    {
+      "rank": 10,
+      "experience_id": "G1",
+      "loo_score": -0.040000000000000036,
+      "v_without": 0.28,
+      "helpful": false,
+      "content": "Trigonometric simplification: Identify complementary angle pairs and apply trigonometric identities for symmetric angle patterns before numerical computation."
+    },
+    {
+      "rank": 11,
+      "experience_id": "G11",
+      "loo_score": -0.040000000000000036,
+      "v_without": 0.28,
+      "helpful": false,
+      "content": "Constraint clarification: Clarify ambiguous constraints by testing multiple interpretations on small cases and checking for mathematically interesting results."
+    },
+    {
+      "rank": 12,
+      "experience_id": "G13",
+      "loo_score": -0.040000000000000036,
+      "v_without": 0.28,
+      "helpful": false,
+      "content": "Condition combination: Systematically combine multiple given conditions early to eliminate variables and constrain the problem space."
+    },
+    {
+      "rank": 13,
+      "experience_id": "G16",
+      "loo_score": -0.040000000000000036,
+      "v_without": 0.28,
+      "helpful": false,
+      "content": "Systematic testing: Test mathematical characterizations on smaller, verifiable cases before scaling to target problems, using both manual reasoning and computational verification."
+    },
+    {
+      "rank": 14,
+      "experience_id": "G17",
+      "loo_score": -0.040000000000000036,
+      "v_without": 0.28,
+      "helpful": false,
+      "content": "Transformation verification: When applying geometric transformations, systematically verify derived lengths and angles after each step and use contradictions to re-examine initial mapping assumptions."
+    },
+    {
+      "rank": 15,
+      "experience_id": "G18",
+      "loo_score": -0.040000000000000036,
+      "v_without": 0.28,
+      "helpful": false,
+      "content": "Boundary exploration: For geometric optimization, systematically explore boundary cases where points become collinear, as these configurations often yield extremal values and provide analytical insights."
+    },
+    {
+      "rank": 16,
+      "experience_id": "G25",
+      "loo_score": -0.040000000000000036,
+      "v_without": 0.28,
+      "helpful": false,
+      "content": "Constraint interpretation: When solving problems with coefficient constraints, explicitly test different interpretations and choose the one that yields mathematically consistent and unique solutions."
+    },
+    {
+      "rank": 17,
+      "experience_id": "G3",
+      "loo_score": -0.06,
+      "v_without": 0.3,
+      "helpful": false,
+      "content": "Parallel lines angles: Apply the theorem that sum of angles on one side equals sum on the other side for transversals crossing parallel lines in zigzag patterns."
+    },
+    {
+      "rank": 18,
+      "experience_id": "G4",
+      "loo_score": -0.06,
+      "v_without": 0.3,
+      "helpful": false,
+      "content": "Burnside's lemma application: Analyze cycle structures and verify no cycles of length >1 exist when counting arrangements with distinct elements."
+    },
+    {
+      "rank": 19,
+      "experience_id": "G8",
+      "loo_score": -0.06,
+      "v_without": 0.3,
+      "helpful": false,
+      "content": "Code isolation: Bundle all necessary imports and variable definitions in each computational execution block to prevent context errors."
+    },
+    {
+      "rank": 20,
+      "experience_id": "G10",
+      "loo_score": -0.06,
+      "v_without": 0.3,
+      "helpful": false,
+      "content": "Pattern identification: Systematically test small cases to identify patterns in combinatorial optimization problems, verifying constraints and checking adjacency conditions before generalizing to larger scales."
+    },
+    {
+      "rank": 21,
+      "experience_id": "G15",
+      "loo_score": -0.06,
+      "v_without": 0.3,
+      "helpful": false,
+      "content": "Bijective verification: Verify combinatorial mappings are bijective by testing for cases where multiple pairs yield identical outcomes, applying inclusion-exclusion to correct overcounting."
+    },
+    {
+      "rank": 22,
+      "experience_id": "G23",
+      "loo_score": -0.06,
+      "v_without": 0.3,
+      "helpful": false,
+      "content": "Min-max balancing: For min-max optimization with discrete assignments, calculate all relevant error metrics and use combinatorial reasoning to identify optimal assignments by balancing largest errors."
+    },
+    {
+      "rank": 23,
+      "experience_id": "G0",
+      "loo_score": -0.08000000000000002,
+      "v_without": 0.32,
+      "helpful": false,
+      "content": "Combinatorial enumeration: Systematically enumerate small cases using computational methods to identify patterns before theoretical generalization, especially for grid paths, probability problems, and constrained assignments."
+    },
+    {
+      "rank": 24,
+      "experience_id": "G14",
+      "loo_score": -0.08000000000000002,
+      "v_without": 0.32,
+      "helpful": false,
+      "content": "Hybrid numerical-analytical: Use numerical testing on specific cases to identify invariant relationships and patterns before complex symbolic derivations, especially for parametric problems, then leverage insights to derive exact analytical expressions."
+    },
+    {
+      "rank": 25,
+      "experience_id": "G19",
+      "loo_score": -0.08000000000000002,
+      "v_without": 0.32,
+      "helpful": false,
+      "content": "Complex root analysis: When solving equations with complex coefficients, systematically analyze conditions for real roots by separating into real and imaginary parts to address core requirements efficiently."
+    },
+    {
+      "rank": 26,
+      "experience_id": "G12",
+      "loo_score": -0.10000000000000003,
+      "v_without": 0.34,
+      "helpful": false,
+      "content": "Symmetry exploitation: Immediately identify and exploit symmetry properties in geometry problems to simplify coordinate placements and reduce computational complexity."
+    },
+    {
+      "rank": 27,
+      "experience_id": "G26",
+      "loo_score": -0.10000000000000003,
+      "v_without": 0.34,
+      "helpful": false,
+      "content": "Root verification: Before applying root of unity properties, systematically verify the exact order by computing powers, modulus, and argument to avoid incorrect assumptions."
+    }
+  ]
+}

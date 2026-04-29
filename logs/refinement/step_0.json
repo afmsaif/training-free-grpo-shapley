@@ -1,0 +1,46 @@
+{
+  "step": 0,
+  "scorer": "llm_judge",
+  "rounds": [
+    {
+      "round": 0,
+      "scorer": "llm_judge",
+      "n_candidates": 8,
+      "n_survivors": 8,
+      "scores": {
+        "G0": 0.8,
+        "G1": 0.0,
+        "G2": 1.0,
+        "G3": 0.8,
+        "G4": 0.0,
+        "G5": 0.2,
+        "G6": 0.0,
+        "G7": 0.6
+      }
+    },
+    {
+      "round": 1,
+      "scorer": "llm_judge",
+      "n_candidates": 8,
+      "n_survivors": 8,
+      "scores": {
+        "G0": 1.0,
+        "G2": 0.8,
+        "G1": 0.6,
+        "G3": 0.4,
+        "G4": 0.2,
+        "G5": 0.0,
+        "G6": 0.0,
+        "G7": 0.0
+      }
+    },
+    {
+      "round": 2,
+      "scorer": "none (final round)",
+      "n_candidates": 8,
+      "n_survivors": 8,
+      "scores": {}
+    }
+  ],
+  "final_n_experiences": 8
+}

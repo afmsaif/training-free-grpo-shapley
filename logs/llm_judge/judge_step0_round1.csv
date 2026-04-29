@@ -1,0 +1,9 @@
+rank,experience_id,score,psi_proxy,remove,content
+1,G0,10.0,1.0000,False,"Accurate Patch Formatting: Ensure patches are syntactically correct, properly formatted, and placed correctly to prevent application issues and improve readability."
+2,G2,9.0,0.8000,False,"Root Cause Focus: Emphasize understanding the root cause of issues and addressing specific code changes to resolve them effectively."
+3,G1,8.0,0.6000,False,"Comprehensive Testing Strategy: Always include test cases, utilize testing tools, and verify patches thoroughly to ensure effectiveness and prevent regressions."
+4,G3,7.0,0.4000,False,"Testing and Verification: Conduct thorough testing, validate patches, and perform manual checks when automated execution isn't feasible to ensure correctness."
+5,G4,6.0,0.2000,False,"Maintainable Solutions: Make minimal, efficient code changes that consider future maintainability and scalability."
+6,G5,5.0,0.0000,False,"Robust Error Handling: Implement effective error handling, including exception management and retry mechanisms, to enhance code reliability and recovery."
+7,G6,5.0,0.0000,False,"Thorough Documentation: Document the debugging process, reasoning, and provide clear explanations to enhance patch clarity and maintainability."
+8,G7,5.0,0.0000,False,"Continuous Improvement: Learn from past experiences and feedback to enhance future performance and adaptability in debugging and patch generation."

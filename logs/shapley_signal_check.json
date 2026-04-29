@@ -1,0 +1,11 @@
+{
+  "v_empty": 0.32,
+  "v_one_experience": {
+    "G0": 0.24
+  },
+  "v_full": 0.28,
+  "gap": -0.03999999999999998,
+  "batch_size": 50,
+  "n_experiences": 27,
+  "signal_exists": true
+}
