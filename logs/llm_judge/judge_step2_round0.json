@@ -1,298 +1,478 @@
 {
-  "timestamp": "2026-04-23T07:12:34.360251+00:00",
+  "timestamp": "2026-04-29T21:43:23.067349+00:00",
   "label": "step2_round0",
-  "n_experiences": 28,
+  "n_experiences": 46,
   "scores": {
-    "G0": 9.0,
-    "G1": 9.0,
-    "G2": 8.0,
-    "G3": 8.0,
-    "G4": 9.0,
-    "G5": 8.0,
-    "G6": 8.0,
-    "G7": 8.0,
-    "G8": 8.0,
-    "G9": 8.0,
-    "G10": 5.0,
-    "G11": 5.0,
-    "G12": 5.0,
-    "G13": 5.0,
-    "G14": 5.0,
-    "G15": 5.0,
-    "G16": 5.0,
-    "G17": 5.0,
-    "G18": 6.0,
-    "G19": 5.0,
-    "G20": 5.0,
-    "G21": 5.0,
-    "G22": 5.0,
-    "G23": 5.0,
-    "G24": 5.0,
-    "G25": 5.0,
-    "G26": 7.0,
-    "G27": 6.0
+    "G0": 10.0,
+    "G1": 8.0,
+    "G2": 7.0,
+    "G3": 9.0,
+    "G4": 8.0,
+    "G5": 10.0,
+    "G6": 7.0,
+    "G7": 5.0,
+    "G8": 6.0,
+    "G9": 6.0,
+    "G10": 6.0,
+    "G11": 6.0,
+    "G12": 6.0,
+    "G13": 10.0,
+    "G14": 8.0,
+    "G15": 10.0,
+    "G16": 7.0,
+    "G17": 7.0,
+    "G18": 7.0,
+    "G19": 7.0,
+    "G20": 7.0,
+    "G21": 7.0,
+    "G22": 10.0,
+    "G23": 6.0,
+    "G24": 7.0,
+    "G25": 7.0,
+    "G26": 6.0,
+    "G27": 7.0,
+    "G28": 7.0,
+    "G29": 7.0,
+    "G30": 10.0,
+    "G31": 6.0,
+    "G32": 6.0,
+    "G33": 7.0,
+    "G34": 7.0,
+    "G35": 7.0,
+    "G36": 7.0,
+    "G37": 7.0,
+    "G38": 7.0,
+    "G39": 7.0,
+    "G40": 7.0,
+    "G41": 7.0,
+    "G42": 7.0,
+    "G43": 7.0,
+    "G44": 7.0,
+    "G45": 7.0
   },
   "psi_proxy": {
-    "G0": 0.8,
-    "G1": 0.8,
-    "G2": 0.6,
-    "G3": 0.6,
-    "G4": 0.8,
-    "G5": 0.6,
-    "G6": 0.6,
-    "G7": 0.6,
-    "G8": 0.6,
-    "G9": 0.6,
-    "G10": 0.0,
-    "G11": 0.0,
-    "G12": 0.0,
-    "G13": 0.0,
-    "G14": 0.0,
-    "G15": 0.0,
-    "G16": 0.0,
-    "G17": 0.0,
-    "G18": 0.2,
-    "G19": 0.0,
-    "G20": 0.0,
-    "G21": 0.0,
-    "G22": 0.0,
-    "G23": 0.0,
-    "G24": 0.0,
-    "G25": 0.0,
-    "G26": 0.4,
-    "G27": 0.2
+    "G0": 1.0,
+    "G1": 0.6,
+    "G2": 0.4,
+    "G3": 0.8,
+    "G4": 0.6,
+    "G5": 1.0,
+    "G6": 0.4,
+    "G7": 0.0,
+    "G8": 0.2,
+    "G9": 0.2,
+    "G10": 0.2,
+    "G11": 0.2,
+    "G12": 0.2,
+    "G13": 1.0,
+    "G14": 0.6,
+    "G15": 1.0,
+    "G16": 0.4,
+    "G17": 0.4,
+    "G18": 0.4,
+    "G19": 0.4,
+    "G20": 0.4,
+    "G21": 0.4,
+    "G22": 1.0,
+    "G23": 0.2,
+    "G24": 0.4,
+    "G25": 0.4,
+    "G26": 0.2,
+    "G27": 0.4,
+    "G28": 0.4,
+    "G29": 0.4,
+    "G30": 1.0,
+    "G31": 0.2,
+    "G32": 0.2,
+    "G33": 0.4,
+    "G34": 0.4,
+    "G35": 0.4,
+    "G36": 0.4,
+    "G37": 0.4,
+    "G38": 0.4,
+    "G39": 0.4,
+    "G40": 0.4,
+    "G41": 0.4,
+    "G42": 0.4,
+    "G43": 0.4,
+    "G44": 0.4,
+    "G45": 0.4
   },
   "ranked_ids": [
     "G0",
-    "G1",
-    "G4",
-    "G2",
-    "G3",
     "G5",
+    "G13",
+    "G15",
+    "G22",
+    "G30",
+    "G1",
+    "G3",
+    "G4",
     "G6",
+    "G2",
+    "G14",
     "G7",
     "G8",
     "G9",
-    "G26",
-    "G27",
     "G10",
     "G11",
     "G12",
-    "G13",
-    "G14",
-    "G15",
     "G16",
     "G17",
     "G18",
     "G19",
     "G20",
     "G21",
-    "G22",
     "G23",
     "G24",
-    "G25"
+    "G25",
+    "G26",
+    "G27",
+    "G28",
+    "G29",
+    "G31",
+    "G32",
+    "G33",
+    "G34",
+    "G35",
+    "G36",
+    "G37",
+    "G38",
+    "G39",
+    "G40",
+    "G41",
+    "G42",
+    "G43",
+    "G44",
+    "G45"
   ],
   "remove_ids": [],
-  "reasoning": "The most beneficial experiences are the general strategies that improve problem-solving across various math domains. The cube-specific experiences are neutral but not harmful. None should be removed as they don't actively harm performance.",
+  "reasoning": "The experiences are generally beneficial, with a focus on technical aspects crucial for effective patch generation. The highest scores go to experiences directly addressing patch formatting, testing, and understanding Django mechanisms. No experiences are classified as harmful or neutral enough to remove.",
   "individual_scores": [
     {
       "experience_id": "G0",
-      "score": 9,
+      "score": 10,
       "classification": "HELPFUL",
-      "justification": "Encourages systematic problem breakdown, reducing errors."
+      "justification": "Critical for ensuring patches are applied correctly."
     },
     {
       "experience_id": "G1",
-      "score": 9,
+      "score": 8,
       "classification": "HELPFUL",
-      "justification": "Stresses verification, crucial for accuracy."
+      "justification": "Improves debugging by focusing on root causes."
     },
     {
       "experience_id": "G2",
-      "score": 8,
+      "score": 7,
       "classification": "HELPFUL",
-      "justification": "Promotes learning from mistakes, enhancing adaptability."
+      "justification": "Encourages learning from past issues."
     },
     {
       "experience_id": "G3",
-      "score": 8,
+      "score": 9,
       "classification": "HELPFUL",
-      "justification": "Consistent application of theorems ensures accuracy."
+      "justification": "Ensures patches are thoroughly tested."
     },
     {
       "experience_id": "G4",
-      "score": 9,
+      "score": 8,
       "classification": "HELPFUL",
-      "justification": "Grasping fundamentals is essential for complex problem-solving."
+      "justification": "Promotes maintainable code changes."
     },
     {
       "experience_id": "G5",
-      "score": 8,
+      "score": 10,
       "classification": "HELPFUL",
-      "justification": "Strategic thinking improves efficiency in problem-solving."
+      "justification": "Comprehensive testing prevents regressions."
     },
     {
       "experience_id": "G6",
-      "score": 8,
+      "score": 7,
       "classification": "HELPFUL",
-      "justification": "Exploring properties aids in applying correct concepts."
+      "justification": "Improves code reliability."
     },
     {
       "experience_id": "G7",
-      "score": 8,
-      "classification": "HELPFUL",
-      "justification": "Verification through alternative methods ensures accuracy."
+      "score": 5,
+      "classification": "NEUTRAL",
+      "justification": "Focuses on documentation, not solving issues."
     },
     {
       "experience_id": "G8",
-      "score": 8,
-      "classification": "HELPFUL",
-      "justification": "Combining methods ensures thorough problem-solving."
+      "score": 6,
+      "classification": "NEUTRAL",
+      "justification": "Basic requirement for code functionality."
     },
     {
       "experience_id": "G9",
-      "score": 8,
-      "classification": "HELPFUL",
-      "justification": "Using tools aids in error prevention."
+      "score": 6,
+      "classification": "NEUTRAL",
+      "justification": "Standard step in patch creation."
     },
     {
       "experience_id": "G10",
-      "score": 5,
+      "score": 6,
       "classification": "NEUTRAL",
-      "justification": "Too specific, limited applicability."
+      "justification": "Methodological approach to patching."
     },
     {
       "experience_id": "G11",
-      "score": 5,
+      "score": 6,
       "classification": "NEUTRAL",
-      "justification": "Specific to edge counting."
+      "justification": "Collaborative step, not technical."
     },
     {
       "experience_id": "G12",
-      "score": 5,
+      "score": 6,
       "classification": "NEUTRAL",
-      "justification": "Too specific."
+      "justification": "Focuses on optimization."
     },
     {
       "experience_id": "G13",
-      "score": 5,
-      "classification": "NEUTRAL",
-      "justification": "Specific to cube structure."
+      "score": 10,
+      "classification": "HELPFUL",
+      "justification": "Crucial for understanding Django issues."
     },
     {
       "experience_id": "G14",
-      "score": 5,
-      "classification": "NEUTRAL",
-      "justification": "Narrow application."
+      "score": 8,
+      "classification": "HELPFUL",
+      "justification": "Helps in debugging inheritance issues."
     },
     {
       "experience_id": "G15",
-      "score": 5,
-      "classification": "NEUTRAL",
-      "justification": "Specific method."
+      "score": 10,
+      "classification": "HELPFUL",
+      "justification": "Key for understanding Django's mechanisms."
     },
     {
       "experience_id": "G16",
-      "score": 5,
+      "score": 7,
       "classification": "NEUTRAL",
-      "justification": "Specific advice."
+      "justification": "Specific scenario understanding."
     },
     {
       "experience_id": "G17",
-      "score": 5,
+      "score": 7,
       "classification": "NEUTRAL",
-      "justification": "Specific to direction."
+      "justification": "Helps in specific display method issues."
     },
     {
       "experience_id": "G18",
-      "score": 6,
+      "score": 7,
       "classification": "NEUTRAL",
-      "justification": "Visualization helps in geometry."
+      "justification": "Understanding inheritance effects."
     },
     {
       "experience_id": "G19",
-      "score": 5,
+      "score": 7,
       "classification": "NEUTRAL",
-      "justification": "Specific to parallel edges."
+      "justification": "Helps in specific override scenarios."
     },
     {
       "experience_id": "G20",
-      "score": 5,
+      "score": 7,
       "classification": "NEUTRAL",
-      "justification": "Specific method."
+      "justification": "Understanding inheritance issues."
     },
     {
       "experience_id": "G21",
-      "score": 5,
+      "score": 7,
       "classification": "NEUTRAL",
-      "justification": "Specific advice."
+      "justification": "Helps in specific override cases."
     },
     {
       "experience_id": "G22",
-      "score": 5,
-      "classification": "NEUTRAL",
-      "justification": "Specific to cube problems."
+      "score": 10,
+      "classification": "HELPFUL",
+      "justification": "Prevents recurring issues."
     },
     {
       "experience_id": "G23",
-      "score": 5,
+      "score": 6,
       "classification": "NEUTRAL",
-      "justification": "Specific advice."
+      "justification": "Improves code clarity."
     },
     {
       "experience_id": "G24",
-      "score": 5,
+      "score": 7,
       "classification": "NEUTRAL",
-      "justification": "Specific counting method."
+      "justification": "Understanding ordering in models."
     },
     {
       "experience_id": "G25",
-      "score": 5,
+      "score": 7,
       "classification": "NEUTRAL",
-      "justification": "Specific multiplication method."
+      "justification": "Identifies specific bug patterns."
     },
     {
       "experience_id": "G26",
-      "score": 7,
-      "classification": "HELPFUL",
-      "justification": "Clarity in labeling avoids confusion."
+      "score": 6,
+      "classification": "NEUTRAL",
+      "justification": "Good practice, not specific."
     },
     {
       "experience_id": "G27",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Improves problem-solving."
+    },
+    {
+      "experience_id": "G28",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Effective version control use."
+    },
+    {
+      "experience_id": "G29",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Collaborative approach."
+    },
+    {
+      "experience_id": "G30",
+      "score": 10,
+      "classification": "HELPFUL",
+      "justification": "Crucial for framework understanding."
+    },
+    {
+      "experience_id": "G31",
       "score": 6,
       "classification": "NEUTRAL",
-      "justification": "Specific fact but useful."
+      "justification": "Promotes code cleanliness."
+    },
+    {
+      "experience_id": "G32",
+      "score": 6,
+      "classification": "NEUTRAL",
+      "justification": "Improves communication."
+    },
+    {
+      "experience_id": "G33",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Correct constraint use."
+    },
+    {
+      "experience_id": "G34",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Avoids unnecessary changes."
+    },
+    {
+      "experience_id": "G35",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Checks equality methods."
+    },
+    {
+      "experience_id": "G36",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Ensures thorough analysis."
+    },
+    {
+      "experience_id": "G37",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Prevents equality collisions."
+    },
+    {
+      "experience_id": "G38",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Avoids variable errors."
+    },
+    {
+      "experience_id": "G39",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Helps in iterator issues."
+    },
+    {
+      "experience_id": "G40",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Handles named tuples."
+    },
+    {
+      "experience_id": "G41",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Broad compatibility fixes."
+    },
+    {
+      "experience_id": "G42",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Knows method locations."
+    },
+    {
+      "experience_id": "G43",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Proper async implementation."
+    },
+    {
+      "experience_id": "G44",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Understands code structure."
+    },
+    {
+      "experience_id": "G45",
+      "score": 7,
+      "classification": "NEUTRAL",
+      "justification": "Guides from documentation."
     }
   ],
-  "raw_response": "Okay, so I'm trying to evaluate these 28 candidate experiences for a math-solving agent. The goal is to figure out which ones are helpful, neutral, or harmful based on the examples provided. Let me go through each experience one by one.\n\nStarting with G0: \"Clear Reasoning: Break down problems systematically into manageable steps to ensure clarity and avoid errors.\" This seems really helpful because breaking down problems step by step is a fundamental strategy that can prevent mistakes. I'll give this a high score, maybe 9.\n\nG1: \"Verify Calculations: Ensure accuracy by checking intermediate steps, using formulas, and validating results, especially with square roots and squares.\" Verification is crucial, especially with operations that can easily lead to errors. I think this is very beneficial, so another 9.\n\nG2: \"Learn from Mistakes: Systematically identify and correct errors in calculations or reasoning by questioning unexpected results and retracing steps to improve adaptability.\" Learning from mistakes is a key practice, so this should be helpful. I'll score this an 8.\n\nG3: \"Apply Theorems: Consistently apply mathematical principles, including the Pythagorean theorem, for accuracy.\" Applying theorems is essential, so this is definitely helpful. Maybe an 8.\n\nG4: \"Understand Basics: Focus on grasping fundamental concepts and mathematical definitions before attempting complex problems.\" Without a solid foundation, the agent can't perform well. This is very important, so another 9.\n\nG5: \"Strategic Thinking: Consider different methods to solve a problem and choose the most efficient analytical approach.\" Strategic thinking helps in selecting the best approach, which is beneficial. I'll give this an 8.\n\nG6: \"Explore Properties: Investigate mathematical properties and connect to known constructs.\" Understanding properties helps in applying the right concepts, so this is helpful. Maybe an 8.\n\nG7: \"Verification: Check the solution using alternative methods or tools to confirm accuracy and provide proofs.\" Verification using different methods is a good practice. I'll score this an 8.\n\nG8: \"Combine Methods: Use theoretical analysis with empirical testing and proofs.\" Combining methods ensures thoroughness. This is helpful, so an 8.\n\nG9: \"Use Tools: Utilize computational and automated tools for verification.\" Tools can help avoid errors, so this is beneficial. I'll give this an 8.\n\nG10: \"Combinatorial Geometry: Use combinatorial methods to count pairs of parallel edges in a cube.\" This seems too specific. It might not be useful beyond this particular problem. I'll score this a 5, neutral.\n\nG11: \"Edge Accounting: Ensure all edges in each direction are counted accurately.\" This is specific to counting edges, which might not be widely applicable. Neutral, so 5.\n\nG12: \"Edge Pairing: Recognize each edge can form multiple pairs in the same direction.\" Again, too specific. Neutral, 5.\n\nG13: \"Cube Structure: Understand cube has three sets of four parallel edges.\" Specific to cubes. Neutral, 5.\n\nG14: \"Combination Formula: Apply (n choose k) for unique pairs.\" While a good formula, it's too narrow. Neutral, 5.\n\nG15: \"Axis Multiplication: Multiply pairs per axis for total count.\" Specific method for counting, so neutral. 5.\n\nG16: \"Unique Pairs: Ensure each pair is counted once.\" Good for avoiding overcounting, but maybe too specific. Neutral, 5.\n\nG17: \"Directional Contribution: Each direction contributes equally to pairs.\" Specific advice, so neutral. 5.\n\nG18: \"Visualization: Use techniques to understand cube structure.\" Visualization is helpful in geometry. Maybe a 6, slightly helpful.\n\nG19: \"Parallel Edges: Recognize they don't intersect and are aligned.\" Basic understanding, but too specific. Neutral, 5.\n\nG20: \"Total Pairs: Sum pairs from each axis.\" Specific method, so neutral. 5.\n\nG21: \"Independent Axis Contribution: Each axis contributes independently.\" Specific, so neutral. 5.\n\nG22: \"Cube Structural Breakdown: Break down the cube into its structural components to identify parallel edges.\" Specific to cube problems. Neutral, 5.\n\nG23: \"Edge Parallel Recognition: Recognize that each edge in a cube has three parallel counterparts.\" Specific advice, so neutral. 5.\n\nG24: \"Edge Counting: For each edge, count the number of edges parallel to it without double-counting.\" Specific, so neutral. 5.\n\nG25: \"Edge Pair Multiplication: Multiply the number of edges in one direction by the number of directions to get the total number of parallel edge pairs.\" Specific method, so neutral. 5.\n\nG26: \"Geometric Clarity: Clearly define and label all geometric components to avoid confusion.\" Clear definitions help, so this is helpful. I'll give this a 7.\n\nG27: \"Square Diagonal: Remember that the diagonal of a square is side length multiplied by √2.\" This is a specific fact, but knowing it can help solve problems faster. Maybe a 6.\n\nNow, compiling the scores. The top experiences are G0, G1, G4 with 9s. Then G2, G3, G5, G6, G7, G8, G9, G26, G27 with 8s or 7. The specific cube-related experiences (G10 to G25) are mostly neutral, so they might be candidates for removal if their scores are low. However, since they are neutral, maybe they shouldn't be removed unless they are harmful. Only experiences with scores below 4 or classified as harmful should be removed. Looking back, none of them are harmful, so maybe none should be removed. But some are too specific and not helpful, so perhaps they are neutral but not beneficial.\n\nWait, the user's examples all involve a rectangle and a point with perpendicular distances, which is geometry. The cube experiences are about counting parallel edges, which is a different problem. So these might not help with the agent's current struggles, which are in a different area. Therefore, while they are neutral, they might not contribute to solving the agent's current issues. But the instruction was to evaluate each experience based on whether it helps improve the agent's performance on mathematical reasoning tasks in general, not specifically the examples given. So, perhaps they are neutral but not harmful.\n\nIn the final assessment, the most beneficial experiences are the general ones like G0, G1, G4, etc. The cube-specific ones are neutral but not helpful for general math problems. So, they can be considered for removal if they don't add value, but since they are neutral, maybe they are okay. However, the user asked to remove experiences with score <4 or HARMFUL. Since none are below 4, maybe no removals are needed. But perhaps some of the cube-specific ones could be considered low impact and thus candidates for removal if we're optimizing for the most beneficial.\n\nWait, but the user's examples all had issues with geometry problems, specifically involving rectangles and points. The cube experiences are about a different geometry problem. So, maybe they are not directly helpful for the agent's current issues. Therefore, while they are neutral, they might not be useful for improving the agent's performance on the types of problems it's struggling with. So, perhaps they should be removed if they don't contribute to the agent's overall capability.\n\nAlternatively, since the agent's objective is to handle any math question, including combinatorial geometry, these experiences could be considered helpful for that specific area. But since the agent's current struggles are in a different area, maybe they are not as beneficial. However, the instruction is to evaluate each experience regardless of the examples, so perhaps they are neutral.\n\nIn conclusion, the most beneficial experiences are the general ones, and the cube-specific ones are neutral but not harmful. Therefore, the ranked list should prioritize the general experiences. As for removal, perhaps none are necessary, but if forced, the ones with lower scores could be considered, but since all are at least 5, maybe none.\n</think>\n\n```json\n{\n  \"individual_scores\": [\n    {\n      \"experience_id\": \"G0\",\n      \"score\": 9,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Encourages systematic problem breakdown, reducing errors.\"\n    },\n    {\n      \"experience_id\": \"G1\",\n      \"score\": 9,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Stresses verification, crucial for accuracy.\"\n    },\n    {\n      \"experience_id\": \"G2\",\n      \"score\": 8,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Promotes learning from mistakes, enhancing adaptability.\"\n    },\n    {\n      \"experience_id\": \"G3\",\n      \"score\": 8,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Consistent application of theorems ensures accuracy.\"\n    },\n    {\n      \"experience_id\": \"G4\",\n      \"score\": 9,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Grasping fundamentals is essential for complex problem-solving.\"\n    },\n    {\n      \"experience_id\": \"G5\",\n      \"score\": 8,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Strategic thinking improves efficiency in problem-solving.\"\n    },\n    {\n      \"experience_id\": \"G6\",\n      \"score\": 8,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Exploring properties aids in applying correct concepts.\"\n    },\n    {\n      \"experience_id\": \"G7\",\n      \"score\": 8,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Verification through alternative methods ensures accuracy.\"\n    },\n    {\n      \"experience_id\": \"G8\",\n      \"score\": 8,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Combining methods ensures thorough problem-solving.\"\n    },\n    {\n      \"experience_id\": \"G9\",\n      \"score\": 8,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Using tools aids in error prevention.\"\n    },\n    {\n      \"experience_id\": \"G10\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Too specific, limited applicability.\"\n    },\n    {\n      \"experience_id\": \"G11\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific to edge counting.\"\n    },\n    {\n      \"experience_id\": \"G12\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Too specific.\"\n    },\n    {\n      \"experience_id\": \"G13\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific to cube structure.\"\n    },\n    {\n      \"experience_id\": \"G14\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Narrow application.\"\n    },\n    {\n      \"experience_id\": \"G15\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific method.\"\n    },\n    {\n      \"experience_id\": \"G16\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific advice.\"\n    },\n    {\n      \"experience_id\": \"G17\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific to direction.\"\n    },\n    {\n      \"experience_id\": \"G18\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Visualization helps in geometry.\"\n    },\n    {\n      \"experience_id\": \"G19\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific to parallel edges.\"\n    },\n    {\n      \"experience_id\": \"G20\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific method.\"\n    },\n    {\n      \"experience_id\": \"G21\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific advice.\"\n    },\n    {\n      \"experience_id\": \"G22\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific to cube problems.\"\n    },\n    {\n      \"experience_id\": \"G23\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific advice.\"\n    },\n    {\n      \"experience_id\": \"G24\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific counting method.\"\n    },\n    {\n      \"experience_id\": \"G25\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific multiplication method.\"\n    },\n    {\n      \"experience_id\": \"G26\",\n      \"score\": 7,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Clarity in labeling avoids confusion.\"\n    },\n    {\n      \"experience_id\": \"G27\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific fact but useful.\"\n    }\n  ],\n  \"ranked_ids\": [\"G0\", \"G1\", \"G4\", \"G2\", \"G3\", \"G5\", \"G6\", \"G7\", \"G8\", \"G9\", \"G26\", \"G27\", \"G10\", \"G11\", \"G12\", \"G13\", \"G14\", \"G15\", \"G16\", \"G17\", \"G18\", \"G19\", \"G20\", \"G21\", \"G22\", \"G23\", \"G24\", \"G25\"],\n  \"remove_ids\": [],\n  \"judge_reasoning\": \"The most beneficial experiences are the general strategies that improve problem-solving across various math domains. The cube-specific experiences are neutral but not harmful. None should be removed as they don't actively harm performance.\"\n}\n```",
+  "raw_response": "Alright, so I'm trying to figure out how to assess these 46 candidate experiences for a math-solving agent, but in this case, the agent is a software engineering agent that generates git patches for GitHub issues. The goal is to evaluate each experience's benefit based on the agent's struggles, which are mainly around not providing correct patches or not addressing issues properly.\n\nFirst, I need to understand what the agent is struggling with. From the examples, it seems like the agent isn't generating the correct patches or isn't addressing the issues at all. So, the experiences should help the agent improve in areas like debugging, formatting patches correctly, understanding common bugs, and so on.\n\nLooking at the experiences, they're categorized into different aspects like patch formatting, testing, debugging strategies, and specific Django-related issues. I need to score each from 0 to 10, classify them as helpful, neutral, or harmful, and then provide a ranked list and a list of experiences to remove.\n\nI'll start by going through each experience one by one.\n\n[G0] Accurate Patch Formatting: This seems crucial because if the patch isn't formatted correctly, it won't be applied properly. So, this should be highly beneficial.\n\n[G1] Root Cause Focus: Understanding the code flow and project standards is important for effective debugging. This is helpful.\n\n[G2] Continuous Improvement: Reviewing past experiences to improve strategies is a good practice. It should be helpful.\n\n[G3] Testing and Verification: Conducting thorough testing ensures the patch works. Very beneficial.\n\n[G4] Maintainable Solutions: Making minimal changes that are maintainable is good for the codebase. Helpful.\n\n[G5] Comprehensive Testing Strategy: Including test cases and using tools is essential. This is highly beneficial.\n\n[G6] Robust Error Handling: Implementing proper error handling improves reliability. Helpful.\n\n[G7] Thorough Documentation: Clear documentation helps others understand the changes. Neutral because it's more about communication than solving the issue.\n\n[G8] Import Management: Ensuring all imports are correct is necessary. Neutral, as it's a basic requirement.\n\n[G9] Patch Validation: Validating patches for compatibility is important. Neutral, as it's a standard step.\n\n[G10] Incremental Patch Development: Testing each change incrementally is good practice. Neutral, as it's a methodological approach.\n\n[G11] Code Review Best Practices: Engaging in code reviews improves quality. Neutral, as it's a collaborative step.\n\n[G12] Patch Performance Analysis: Analyzing performance impact is important. Neutral, as it's more about optimization.\n\n[G13] Framework Method Understanding: Understanding how frameworks generate methods is crucial for Django issues. Very helpful.\n\n[G14] Child Model Behavior: Knowing how child models behave helps in debugging inheritance issues. Helpful.\n\n[G15] Django Inheritance Mechanisms: Understanding Django's inheritance is key. Very helpful.\n\n[G16] Dynamic Method Behavior: Understanding dynamic methods is important. Neutral, as it's a specific scenario.\n\n[G17] Django Display Methods: Knowing how display methods work is helpful. Neutral.\n\n[G18] Inheritance and Dynamic Methods: Understanding how inheritance affects methods is important. Neutral.\n\n[G19] Child Model Overrides: Knowing when overrides are needed is helpful. Neutral.\n\n[G20] Dynamic Method Inheritance: Understanding inheritance issues is important. Neutral.\n\n[G21] Explicit Overrides: Knowing when to override is helpful. Neutral.\n\n[G22] Common Bug Patterns: Recognizing recurring issues can prevent them. Very helpful.\n\n[G23] Clear Comments: Using comments improves clarity. Neutral.\n\n[G24] Django Ordering: Understanding ordering in inherited models is important. Neutral.\n\n[G25] Common Bug Patterns: Similar to G22, but more specific. Neutral.\n\n[G26] Stay Updated: Keeping up with practices is good. Neutral.\n\n[G27] Break Down Issues: Breaking down complex issues is helpful. Neutral.\n\n[G28] Version Control: Using version control effectively is important. Neutral.\n\n[G29] Collaborate: Collaborating improves problem-solving. Neutral.\n\n[G30] Framework Principles: Understanding framework principles is crucial. Very helpful.\n\n[G31] Codebase Cleanliness: Keeping code clean is good. Neutral.\n\n[G32] Clear Communication: Communicating clearly is important. Neutral.\n\n[G33] Correct Constraint Type: Using the right constraints is essential. Neutral.\n\n[G34] Avoid Undefined Elements: Ensuring changes are relevant is important. Neutral.\n\n[G35] Check Equality Methods: Verifying equality methods is crucial for certain issues. Neutral.\n\n[G36] Comprehensive Analysis: Thorough analysis ensures effective fixes. Neutral.\n\n[G37] Ordering and Hashing: Understanding their role prevents issues. Neutral.\n\n[G38] Variable Definition: Properly defining variables is basic but important. Neutral.\n\n[G39] Iterator Unpacking: Knowing how to unpack values is helpful. Neutral.\n\n[G40] Named Tuple Identification: Handling named tuples correctly is important. Neutral.\n\n[G41] Generalized Fixes: Implementing broad fixes is good. Neutral.\n\n[G42] Method Location Verification: Knowing where to add methods is important. Neutral.\n\n[G43] Async Implementation: Properly implementing async is crucial. Neutral.\n\n[G44] Code Structure Review: Understanding code structure is important. Neutral.\n\n[G45] Documentation Reference: Referencing documentation is helpful. Neutral.\n\nNow, considering the agent's struggles, experiences that directly address debugging, patch formatting, testing, and understanding Django's mechanisms are the most beneficial. Experiences that are too vague or focus on collaboration rather than technical aspects are less helpful.\n\nSo, the highest scores should go to experiences like G0, G13, G15, G22, G30, and G5. Lower scores for those that are more about general practices or collaboration.\n\nI'll need to assign scores accordingly, making sure to highlight the most beneficial ones and remove any that are not helpful or could be misleading.\n</think>\n\n```json\n{\n  \"individual_scores\": [\n    {\n      \"experience_id\": \"G0\",\n      \"score\": 10,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Critical for ensuring patches are applied correctly.\"\n    },\n    {\n      \"experience_id\": \"G1\",\n      \"score\": 8,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Improves debugging by focusing on root causes.\"\n    },\n    {\n      \"experience_id\": \"G2\",\n      \"score\": 7,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Encourages learning from past issues.\"\n    },\n    {\n      \"experience_id\": \"G3\",\n      \"score\": 9,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Ensures patches are thoroughly tested.\"\n    },\n    {\n      \"experience_id\": \"G4\",\n      \"score\": 8,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Promotes maintainable code changes.\"\n    },\n    {\n      \"experience_id\": \"G5\",\n      \"score\": 10,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Comprehensive testing prevents regressions.\"\n    },\n    {\n      \"experience_id\": \"G6\",\n      \"score\": 7,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Improves code reliability.\"\n    },\n    {\n      \"experience_id\": \"G7\",\n      \"score\": 5,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Focuses on documentation, not solving issues.\"\n    },\n    {\n      \"experience_id\": \"G8\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Basic requirement for code functionality.\"\n    },\n    {\n      \"experience_id\": \"G9\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Standard step in patch creation.\"\n    },\n    {\n      \"experience_id\": \"G10\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Methodological approach to patching.\"\n    },\n    {\n      \"experience_id\": \"G11\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Collaborative step, not technical.\"\n    },\n    {\n      \"experience_id\": \"G12\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Focuses on optimization.\"\n    },\n    {\n      \"experience_id\": \"G13\",\n      \"score\": 10,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Crucial for understanding Django issues.\"\n    },\n    {\n      \"experience_id\": \"G14\",\n      \"score\": 8,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Helps in debugging inheritance issues.\"\n    },\n    {\n      \"experience_id\": \"G15\",\n      \"score\": 10,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Key for understanding Django's mechanisms.\"\n    },\n    {\n      \"experience_id\": \"G16\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Specific scenario understanding.\"\n    },\n    {\n      \"experience_id\": \"G17\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Helps in specific display method issues.\"\n    },\n    {\n      \"experience_id\": \"G18\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Understanding inheritance effects.\"\n    },\n    {\n      \"experience_id\": \"G19\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Helps in specific override scenarios.\"\n    },\n    {\n      \"experience_id\": \"G20\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Understanding inheritance issues.\"\n    },\n    {\n      \"experience_id\": \"G21\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Helps in specific override cases.\"\n    },\n    {\n      \"experience_id\": \"G22\",\n      \"score\": 10,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Prevents recurring issues.\"\n    },\n    {\n      \"experience_id\": \"G23\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Improves code clarity.\"\n    },\n    {\n      \"experience_id\": \"G24\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Understanding ordering in models.\"\n    },\n    {\n      \"experience_id\": \"G25\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Identifies specific bug patterns.\"\n    },\n    {\n      \"experience_id\": \"G26\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Good practice, not specific.\"\n    },\n    {\n      \"experience_id\": \"G27\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Improves problem-solving.\"\n    },\n    {\n      \"experience_id\": \"G28\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Effective version control use.\"\n    },\n    {\n      \"experience_id\": \"G29\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Collaborative approach.\"\n    },\n    {\n      \"experience_id\": \"G30\",\n      \"score\": 10,\n      \"classification\": \"HELPFUL\",\n      \"justification\": \"Crucial for framework understanding.\"\n    },\n    {\n      \"experience_id\": \"G31\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Promotes code cleanliness.\"\n    },\n    {\n      \"experience_id\": \"G32\",\n      \"score\": 6,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Improves communication.\"\n    },\n    {\n      \"experience_id\": \"G33\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Correct constraint use.\"\n    },\n    {\n      \"experience_id\": \"G34\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Avoids unnecessary changes.\"\n    },\n    {\n      \"experience_id\": \"G35\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Checks equality methods.\"\n    },\n    {\n      \"experience_id\": \"G36\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Ensures thorough analysis.\"\n    },\n    {\n      \"experience_id\": \"G37\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Prevents equality collisions.\"\n    },\n    {\n      \"experience_id\": \"G38\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Avoids variable errors.\"\n    },\n    {\n      \"experience_id\": \"G39\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Helps in iterator issues.\"\n    },\n    {\n      \"experience_id\": \"G40\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Handles named tuples.\"\n    },\n    {\n      \"experience_id\": \"G41\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Broad compatibility fixes.\"\n    },\n    {\n      \"experience_id\": \"G42\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Knows method locations.\"\n    },\n    {\n      \"experience_id\": \"G43\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Proper async implementation.\"\n    },\n    {\n      \"experience_id\": \"G44\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Understands code structure.\"\n    },\n    {\n      \"experience_id\": \"G45\",\n      \"score\": 7,\n      \"classification\": \"NEUTRAL\",\n      \"justification\": \"Guides from documentation.\"\n    }\n  ],\n  \"ranked_ids\": [\n    \"G0\",\n    \"G5\",\n    \"G13\",\n    \"G15\",\n    \"G22\",\n    \"G30\",\n    \"G1\",\n    \"G3\",\n    \"G4\",\n    \"G6\",\n    \"G2\",\n    \"G14\",\n    \"G7\",\n    \"G8\",\n    \"G9\",\n    \"G10\",\n    \"G11\",\n    \"G12\",\n    \"G16\",\n    \"G17\",\n    \"G18\",\n    \"G19\",\n    \"G20\",\n    \"G21\",\n    \"G23\",\n    \"G24\",\n    \"G25\",\n    \"G26\",\n    \"G27\",\n    \"G28\",\n    \"G29\",\n    \"G31\",\n    \"G32\",\n    \"G33\",\n    \"G34\",\n    \"G35\",\n    \"G36\",\n    \"G37\",\n    \"G38\",\n    \"G39\",\n    \"G40\",\n    \"G41\",\n    \"G42\",\n    \"G43\",\n    \"G44\",\n    \"G45\"\n  ],\n  \"remove_ids\": [],\n  \"judge_reasoning\": \"The experiences are generally beneficial, with a focus on technical aspects crucial for effective patch generation. The highest scores go to experiences directly addressing patch formatting, testing, and understanding Django mechanisms. No experiences are classified as harmful or neutral enough to remove.\"\n}\n```",
   "experiences": {
-    "G0": "Clear Reasoning: Break down problems systematically into manageable steps to ensure clarity and avoid errors.",
-    "G1": "Verify Calculations: Ensure accuracy by checking intermediate steps, using formulas, and validating results, especially with square roots and squares.",
-    "G2": "Learn from Mistakes: Systematically identify and correct errors in calculations or reasoning by questioning unexpected results and retracing steps to improve adaptability.",
-    "G3": "Apply Theorems: Consistently apply mathematical principles, including the Pythagorean theorem, for accuracy.",
-    "G4": "Understand Basics: Focus on grasping fundamental concepts and mathematical definitions before attempting complex problems.",
-    "G5": "Strategic Thinking: Consider different methods to solve a problem and choose the most efficient analytical approach.",
-    "G6": "Explore Properties: Investigate mathematical properties and connect to known constructs.",
-    "G7": "Verification: Check the solution using alternative methods or tools to confirm accuracy and provide proofs.",
-    "G8": "Combine Methods: Use theoretical analysis with empirical testing and proofs.",
-    "G9": "Use Tools: Utilize computational and automated tools for verification.",
-    "G10": "Combinatorial Geometry: Use combinatorial methods to count pairs of parallel edges in a cube.",
-    "G11": "Edge Accounting: Ensure all edges in each direction are counted accurately.",
-    "G12": "Edge Pairing: Recognize each edge can form multiple pairs in the same direction.",
-    "G13": "Cube Structure: Understand cube has three sets of four parallel edges.",
-    "G14": "Combination Formula: Apply (n choose k) for unique pairs.",
-    "G15": "Axis Multiplication: Multiply pairs per axis for total count.",
-    "G16": "Unique Pairs: Ensure each pair is counted once.",
-    "G17": "Directional Contribution: Each direction contributes equally to pairs.",
-    "G18": "Visualization: Use techniques to understand cube structure.",
-    "G19": "Parallel Edges: Recognize they don't intersect and are aligned.",
-    "G20": "Total Pairs: Sum pairs from each axis.",
-    "G21": "Independent Axis Contribution: Each axis contributes independently.",
-    "G22": "Cube Structural Breakdown: Break down the cube into its structural components to identify parallel edges.",
-    "G23": "Edge Parallel Recognition: Recognize that each edge in a cube has three parallel counterparts.",
-    "G24": "Edge Counting: For each edge, count the number of edges parallel to it without double-counting.",
-    "G25": "Edge Pair Multiplication: Multiply the number of edges in one direction by the number of directions to get the total number of parallel edge pairs.",
-    "G26": "Geometric Clarity: Clearly define and label all geometric components to avoid confusion.",
-    "G27": "Square Diagonal: Remember that the diagonal of a square is side length multiplied by √2."
+    "G0": "Accurate Patch Formatting: Ensure patches are syntactically correct, properly formatted with correct line numbers and context lines, and validated to prevent syntax errors.",
+    "G1": "Root Cause Focus: Understand the code flow, review the issue description, and ensure the patch adheres to project coding standards to identify and address the root cause effectively.",
+    "G2": "Continuous Improvement: Extract and review experiences from past trajectories to refine debugging strategies and enhance future performance.",
+    "G3": "Testing and Verification: Conduct thorough testing, validate patches using tools, and ensure correctness by verifying behavior and checking variables.",
+    "G4": "Maintainable Solutions: Make minimal, efficient code changes that consider future maintainability and scalability, leveraging existing helper methods and utilities.",
+    "G5": "Comprehensive Testing Strategy: Always include test cases, utilize testing tools, and verify patches thoroughly to ensure effectiveness and prevent regressions by integrating with automated frameworks and checking dynamic methods.",
+    "G6": "Robust Error Handling: Implement effective error handling, including exception management, retry mechanisms, and proper documentation to enhance code reliability and recovery.",
+    "G7": "Thorough Documentation: Document the debugging process, reasoning, and provide clear explanations to enhance patch clarity and maintainability.",
+    "G8": "Import Management: Ensure all necessary imports are included in the code to avoid runtime errors and ensure the patch functions correctly.",
+    "G9": "Patch Validation: Always validate patches against the repository to ensure compatibility and prevent merge conflicts.",
+    "G10": "Incremental Patch Development: Develop patches in small, incremental steps to test and verify each change before finalizing.",
+    "G11": "Code Review Best Practices: Engage in peer code reviews to identify potential issues and ensure code quality before submitting patches.",
+    "G12": "Patch Performance Analysis: Analyze the performance impact of patches to ensure they do not introduce regressions or degrade system efficiency.",
+    "G13": "Framework Method Understanding: Understand how frameworks generate dynamic methods for model fields to diagnose issues related to inherited choices.",
+    "G14": "Child Model Behavior: Recognize that incorrect method generation can lead to unexpected behavior in child models.",
+    "G15": "Django Inheritance Mechanisms: Be aware of how Django's model inheritance affects method generation and ensure patches respect these rules.",
+    "G16": "Dynamic Method Behavior: Understand that dynamically generated methods may not behave as expected when inherited.",
+    "G17": "Django Display Methods: Consider how Django dynamically generates display methods based on model choices when addressing issues.",
+    "G18": "Inheritance and Dynamic Methods: Be mindful of how inheritance affects dynamically generated methods and ensure child models can override them.",
+    "G19": "Child Model Overrides: Recognize that dynamically generated methods in Django may require explicit overrides in child models.",
+    "G20": "Dynamic Method Inheritance: Understand that dynamically generated methods may not be inherited correctly, necessitating explicit checks.",
+    "G21": "Explicit Overrides: Be aware that dynamically generated methods in Django may require explicit overrides in child models to function correctly.",
+    "G22": "Common Bug Patterns: Recognize and address recurring issues to prevent their recurrence and improve debugging efficiency.",
+    "G23": "Clear Comments: Use clear and concise comments in the patch to explain changes.",
+    "G24": "Django Ordering: Understand how Django processes `Meta.ordering` for inherited models.",
+    "G25": "Common Bug Patterns: Recognize common bug patterns, such as incorrect ordering in inherited models.",
+    "G26": "Stay Updated: Stay updated with latest software engineering practices.",
+    "G27": "Break Down Issues: Break down complex issues into manageable parts.",
+    "G28": "Version Control: Use version control effectively to track changes.",
+    "G29": "Collaborate: Collaborate with others or seek help for unfamiliar issues.",
+    "G30": "Framework Principles: Understand underlying principles of the framework being used.",
+    "G31": "Codebase Cleanliness: Keep the codebase clean and well-organized.",
+    "G32": "Clear Communication: Communicate clearly when explaining solutions to others.",
+    "G33": "Correct Constraint Type: Use the correct constraint type (e.g., UniqueConstraint) to address related issues effectively.",
+    "G34": "Avoid Undefined Elements: Ensure that all changes are directly relevant to the issue and avoid introducing unnecessary modifications.",
+    "G35": "Check Equality Methods: Verify if `__eq__`, `__lt__`, and `__hash__` need modification for equality issues.",
+    "G36": "Comprehensive Analysis: Ensure thorough examination of all problem aspects to implement effective fixes.",
+    "G37": "Ordering and Hashing: Understand their role in preventing equality collisions and ensure proper implementation.",
+    "G38": "Variable Definition: Ensure variables are properly defined before use to avoid NameErrors.",
+    "G39": "Iterator Unpacking: Use `*` to unpack values when reconstructing data structures from iterators.",
+    "G40": "Named Tuple Identification: Check for a `_make` attribute to handle named tuples appropriately.",
+    "G41": "Generalized Fixes: Implement fixes that handle both regular tuples and named tuples for broader compatibility.",
+    "G42": "Method Location Verification: Verify the correct location for adding new methods within the codebase.",
+    "G43": "Async Implementation: Properly implement async operations using `sync_to_async` when required.",
+    "G44": "Code Structure Review: Review the code structure to understand where new methods should be added.",
+    "G45": "Documentation Reference: Reference existing documentation and similar patches for guidance."
   }
 }
