@@ -79,3 +79,12 @@ CLAUDE.md
 .specify
 alembic.ini
 alembic/
+
+# Keep logs folder but ignore raw log files
+*.log
+!logs/
+!logs/**/*.json
+!logs/**/*.jsonl
+!logs/**/*.csv
+logs/*.log*
+logs/**/*.log*
